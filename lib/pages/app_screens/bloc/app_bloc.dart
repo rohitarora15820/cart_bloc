@@ -1,10 +1,10 @@
 import 'dart:developer';
 
-import 'package:dbstech_blocapi/bloc/app_event.dart';
-import 'package:dbstech_blocapi/bloc/app_states.dart';
+import 'package:dbstech_blocapi/pages/app_screens/bloc/app_event.dart';
+import 'package:dbstech_blocapi/pages/app_screens/bloc/app_states.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../repositories.dart';
+import '../../../repositories.dart';
 
 class UserBloc extends Bloc<UserEvent, UserState> {
   final UserRepository _userRepository;
